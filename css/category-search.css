@@ -27,11 +27,6 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards .card h3 {
-  color: var(--background-tertiary-color);
-  font-weight: var(--titles-weight);
-}
-
 .categories-cards .card.single-line {
   padding-top: 50px;
 }
