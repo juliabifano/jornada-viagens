@@ -32,3 +32,34 @@
 .posts-items .item p {
   margin-bottom: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .posts-items .item .img-item {
+    width: 648;
+    height: 300px;
+  }
+
+  .posts-items .item.osaka .img-item {
+    background: url(../img/blog/osaka-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .posts-items .item.hiroshima .img-item {
+    background: url(../img/blog/hiroshima-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .posts-items .item.kyoto .img-item {
+    background: url(../img/blog/kyoto-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .posts-items {
+    width: 1200px;
+  }
+  .posts-items {
+    flex-direction: row;
+  }
+}
