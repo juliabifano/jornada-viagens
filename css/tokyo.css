@@ -3,13 +3,30 @@
   flex-direction: column;
 }
 
-.blog-tokyo .img-house {
-  width: 100%;
-  height: 360px;
-  margin: 24px auto 32px;
+.blog-tokyo h3 {
+  margin-top: 32px;
 }
 
-.blog-tokyo .acomodation .img-house {
+.blog-tokyo .img-tokyo {
+  width: 100%;
+  height: 360px;
+  margin-top: 24px;
+}
+
+.blog-tokyo .acomodation .img-tokyo {
   background: url(../img/blog/tokyo-house-mobile.jpg);
   background-size: cover;
+}
+
+.blog-tokyo .exploring .img-tokyo {
+  background: url(../img/blog/tokyo-city-mobile.jpg);
+  background-size: cover;
+  margin-bottom: 8px;
+}
+
+.blog-tokyo .exploring h4 {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin: 8px auto 0;
 }
