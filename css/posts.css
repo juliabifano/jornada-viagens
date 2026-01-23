@@ -1,0 +1,34 @@
+.posts-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.posts-items .item .img-item {
+  width: 100%;
+  height: 300px;
+}
+
+.posts-items .item.osaka .img-item {
+  background: url(../img/blog/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.posts-items .item.hiroshima .img-item {
+  background: url(../img/blog/hiroshima-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.posts-items .item.kyoto .img-item {
+  background: url(../img/blog/kyoto-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.posts-items .item h3 {
+  margin-top: 16px;
+}
+
+.posts-items .item p {
+  margin-bottom: 16px;
+}
