@@ -13,7 +13,7 @@
   margin-top: 24px;
 }
 
-.blog-tokyo .acomodation .img-tokyo {
+.blog-tokyo .arrival .img-tokyo {
   background: url(../img/blog/tokyo-house-mobile.jpg);
   background-size: cover;
 }
@@ -29,4 +29,33 @@
   line-height: 28px;
   font-weight: var(--text-weight);
   margin: 8px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-tokyo .arrival {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  .blog-tokyo .arrival .img-tokyo {
+    width: 312px;
+    background: url(../img/blog/tokyo-house-tablet.jpg);
+    background-size: cover;
+  }
+  .blog-tokyo .exploring .img-tokyo {
+    background: url(../img/blog/tokyo-city-tablet.jpg);
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .blog-tokyo .arrival .img-tokyo {
+    width: 588px;
+    background: url(../img/blog/tokyo-house-desktop.jpg);
+    background-size: cover;
+  }
+  .blog-tokyo .exploring .img-tokyo {
+    background: url(../img/blog/tokyo-city-desktop.jpg);
+    background-size: cover;
+  }
 }
