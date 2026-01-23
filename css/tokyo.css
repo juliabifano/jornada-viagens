@@ -1,0 +1,15 @@
+.blog.tokyo {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-tokyo .img-house {
+  width: 100%;
+  height: 360px;
+  margin: 24px auto 32px;
+}
+
+.blog-tokyo .acomodation .img-house {
+  background: url(../img/blog/tokyo-house-mobile.jpg);
+  background-size: cover;
+}
