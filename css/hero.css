@@ -23,26 +23,30 @@
   line-height: 1.5;
 }
 
-/*PACOTE DE VIAGENS E BLOG*/
+/*PACOTE DE VIAGENS, BLOG E CONTATO*/
 .travel-packages.hero,
-.blog.hero {
+.blog.hero,
+.contact.hero {
   margin-bottom: 88px;
 }
 
 .travel-packages .hero-content,
-.blog .hero-content {
+.blog .hero-content,
+.contact.hero .hero-content {
   padding: 65px 24px;
 }
 
 .travel-packages .hero-content h1,
-.blog .hero-content h1 {
+.blog .hero-content h1,
+.contact .hero-content h1 {
   font-size: 48px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
 }
 
 .travel-packages .hero-content hr,
-.blog .hero-content hr {
+.blog .hero-content hr,
+.contact .hero-content hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
@@ -51,7 +55,8 @@
 }
 
 .travel-packages .hero-content p,
-.blog .hero-content p {
+.blog .hero-content p,
+.contact .hero-content p {
   font-size: 20px;
   line-height: 32px;
   color: var(--text-secondary-color);
@@ -78,6 +83,13 @@
   background-size: cover;
 }
 
+/*CONTATO*/
+.contact .hero-img {
+  height: 460px;
+  background: url(../img/contact/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -94,14 +106,16 @@
     font-size: 32px;
   }
 
-  /*PACOTE DE VIAGENS E BLOG*/
+  /*PACOTE DE VIAGENS, BLOG E CONTATO*/
   .travel-packages .hero-content,
-  .blog .hero-content {
+  .blog .hero-content,
+  .contact.hero .hero-content {
     padding: 210px 70px 107px;
   }
 
   .travel-packages .hero-content p,
-  .blog .hero-content p {
+  .blog .hero-content p,
+  .contact .hero-content p {
     font-size: 32px;
     line-height: 48px;
   }
@@ -124,6 +138,13 @@
     background: url(../img/travel-packages/bottom-hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  /*CONTATO*/
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contact/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,15 +162,17 @@
     padding: 88px 120px;
   }
 
-  /*PACOTE DE VIAGENS E BLOG*/
+  /*PACOTE DE VIAGENS, BLOG E CONTATO*/
   .travel-packages .hero-content,
-  .blog .hero-content {
+  .blog .hero-content,
+  .contact.hero .hero-content {
     padding: 150px 120px 170px;
     margin: 0 auto;
   }
 
   .travel-packages .hero-content p,
-  .blog .hero-content p {
+  .blog .hero-content p,
+  .contact.hero .hero-content p {
     width: 570px;
   }
 
@@ -169,6 +192,13 @@
   .travel-packages.bottom-hero .hero-img {
     height: 600px;
     background: url(../img/travel-packages/bottom-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  /*CONTATO*/
+  .contact .hero-img {
+    height: 620px;
+    background: url(../img/contact/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 }
