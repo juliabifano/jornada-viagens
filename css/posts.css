@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 768px) {
   .posts-items .item .img-item {
-    width: 648;
+    width: 648px;
     height: 300px;
   }
 
@@ -58,8 +58,11 @@
 @media screen and (min-width: 1024px) {
   .posts-items {
     width: 1200px;
-  }
-  .posts-items {
     flex-direction: row;
+    align-items: baseline;
+  }
+  .posts-items .item .img-item {
+    width: 384px;
+    height: 300px;
   }
 }
