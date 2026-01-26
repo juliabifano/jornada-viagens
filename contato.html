@@ -85,6 +85,62 @@
           </div>
         </div>
       </section>
+      <section class="form">
+        <div class="section-title">
+          <h2>Preencha o formulário:</h2>
+          <hr />
+        </div>
+        <div class="form-intro">
+          <p class="content-text">
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+            problemas, trazer dicas e orientações objetivas para tornar sua
+            experiência o mais prazerosa e tranquila possível. Preencha seus
+            dados que vamos retornar seu contato conforme a urgência do seu
+            chamado. Pode confiar!
+          </p>
+        </div>
+        <div class="form-input">
+          <form action="#" method="get">
+            <fieldset>
+              <input
+                type="text"
+                name="userName"
+                id="name"
+                placeholder="Seu Nome"
+                required
+              />
+              <div class="line"><input
+                type="tel"
+                pattern="[0-9]{11}"
+                name="userPhone"
+                id="phone"
+                placeholder="Telefone"
+                aria-describedby="phoneHelp"
+              />
+              <input
+                type="text"
+                name="userEmail"
+                id="email"
+                placeholder="Email"
+                required
+              /></div>
+              <input
+                type="text"
+                name="userSubject"
+                id="subject"
+                placeholder="Assunto"
+                required
+              />
+              <br />
+              <label for="comment">Assunto</label> <br />
+              <textarea name="userComment" id="comment"></textarea>
+            </fieldset>
+          </form>
+        </div>
+        <a href="#" class="button" target="_blank" title="Enviar formulário"
+          >Enviar!</a
+        >
+      </section>
     </body>
   </main>
 </html>

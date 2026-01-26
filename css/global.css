@@ -81,6 +81,10 @@ section.bottom-hero {
   line-height: 32px;
 }
 
+.form .form-intro .content-text {
+  text-align: center;
+}
+
 .button {
   min-width: 280px;
   height: 64px;
