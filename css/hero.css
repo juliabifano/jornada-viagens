@@ -90,6 +90,12 @@
   background-size: cover;
 }
 
+.contact.bottom-hero .hero-img {
+  height: 400px;
+  background: url(../img/contact/bottom-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -143,6 +149,11 @@
   .contact .hero-img {
     height: 620px;
     background: url(../img/contact/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+   .contact.bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/contact/bottom-hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
 }
@@ -199,6 +210,12 @@
   .contact .hero-img {
     height: 620px;
     background: url(../img/contact/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+   .contact.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/contact/bottom-hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
 }
